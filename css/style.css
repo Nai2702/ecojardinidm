@@ -1,0 +1,146 @@
+
+.bg_banner{
+    height:10rem;
+    background-color: #D7EFCE;
+    background-image: none;
+  }
+
+p{
+    font-size: 1.2rem;
+  }
+
+main{
+     background-color:#fd9d9aa5;
+}
+
+.producto{
+    border:2px solid  #D7EFCE;
+    border-radius: 20px;
+    margin:0.5rem;
+    background-color: aliceblue;
+}
+
+span{
+    font-size: 1.8rem;
+    color: darkgreen;
+    font-weight: 600;
+}
+
+.btn-pink{
+    color: white;
+    background-color: rgb(237, 15, 160);
+    border: 0.25rem solid ;
+    width: fit-content;
+    margin: auto;
+    padding: 0.25rem 1rem;
+    border-radius: 0.5rem;
+    outline: 0.20rem solid rgb(134, 240, 162);
+    outline-offset: -0.25rem;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+
+.btn-pink:hover{
+    color:rgb(237, 15, 160);
+    font-weight: bold;
+    outline-offset: 0.15rem;
+    border-color: rgb(134, 240, 162);
+}
+
+
+.bg_footer{
+    color:white;
+    height: 38rem;
+    background: url(../img/banner/banner_footer.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+}
+
+h1{
+    font-family: "WindSong", cursive;
+    font-weight:600;
+    font-style:normal;
+    font-size: 4.5rem;
+    color: rgb(4, 66, 26);
+    text-shadow: 2px 2px 5px rgb(220, 120, 133);
+    margin-bottom: 2rem;     
+}
+
+h2,h3{
+    font-size: 2rem;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(8, 137, 53);
+}
+
+.datos_personales{
+    justify-content: center;
+}
+
+ul{
+    margin-top: 10rem;
+}
+
+li{
+    text-align: center;
+    list-style-type: none;
+}
+
+footer h2{font-size: 0%;}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+
+
+}
+
+  
+        
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    
+    .bg_banner{
+        height: 28rem;
+        background: url(../img/banner/banner_principal.png) no-repeat center;
+        background-size: cover;
+        width: 100%;
+      }
+   
+
+}
+
+   
+    
+
+
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+    .bg_banner{
+        height: 30rem;
+        background: url(../img/banner/banner_xl.png) no-repeat center;
+        background-size: cover;
+        width: 100%;
+      }
+
+      h1{
+         font-size: 6rem;
+         margin-right:33rem;
+      }
+   
+
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+  
+ }
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { }
